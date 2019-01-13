@@ -1,0 +1,26 @@
+
+body{
+background-color: black;
+}
+
+h1 {
+    color: #ffff00;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+
+}
+h3 {
+    color: yellow;
+    font-size: 32pt;
+
+}
+h2 {
+    color: yellow;
+}
+ol {
+    color: yellow;
+}
+span {
+    color: yellow;
+}

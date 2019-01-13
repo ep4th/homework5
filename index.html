@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Crystal Collector Game </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    
 </head>
 <body>
+
+    <h1>The Crystal Collector Game</h1>
     
+     <div class="instruction">
+        <h3>How you play!!!</h3>
+ 
+        <ol>
+            <li>At the start of the game you will be assigned a random number.</li>
+            <li>Below are four crystals</li>
+            <li>Apon clicking on a crystal it will add a specific amount of points to your score.</li>
+            <li>You win the game if your total score matches the random number from the beggining of the game.</li>
+            <li>You lose the game if your total score goes above the random number.</li>
+            <li>Each crystal's value is hidden from you until you click on it.</li>
+            <li>Each time when the game starts, the game will change the values of each crystal.</li>
+         </ol>
+            </div>
+            <div class="numberToMatch">
+                <h2>Number To Get:
+                    <span id= "randomNumber"></span>
+                </h2>
+            </div>
+            <div class="winsAndLosses">
+                <h2>Wins:
+                    <span id= "numberWins"></span>
+                    </br>
+                    Losses: 
+                    <span id= "numberLosses"></span>
+                </h2>
+            </div>
+            <div class="gems">
+                <img src="assets/images/blue.jpg" class=gemImage id="blue" width= "200px" height= "200px" alt="Blue Gem">
+                <img src="assets/images/green.jpg" class=gemImage id="green" width= "200px" height= "200px" alt="Green Gem">
+                <img src="assets/images/red.jpg" class=gemImage id= "red" width= "200px" height= "200px" alt="Red Gem">
+                <img src="assets/images/yellow.jpg" class=gemImage id= "yellow" width= "200px" height= "200px" alt="Yellow Gem">
+            </div>
+            <div class="userTotal">
+                <h2>Your total score is:
+                    <span id="finalTotal"></span>
+                </h2>
+            </div>   
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script type="text/javascript" src="assets\javascript\app.js"></script>
 </body>
 </html>
